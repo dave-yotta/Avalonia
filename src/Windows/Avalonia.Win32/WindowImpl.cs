@@ -92,6 +92,7 @@ namespace Avalonia.Win32
         private bool _shown;
         private bool _hiddenWindowIsParent;
         private uint _langid;
+        private bool _ignoreWmChar;
 
         public WindowImpl()
         {
